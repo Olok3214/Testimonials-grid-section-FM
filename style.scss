@@ -30,7 +30,7 @@ body{
         align-items: center;
         margin-block-start: 3rem;
         gap: 2rem;
-        font-size: 13px;
+        font-size: 0.8125rem;
         section{
             box-sizing: border-box;
             width: 85vw;
@@ -43,7 +43,7 @@ body{
             gap: 1rem;
             line-height: 1.4;
 
-            .name{
+            header{
                 display: grid;
                 grid-template-columns: 1fr 8fr;
                 grid-template-rows: 1fr 1fr;
@@ -115,7 +115,7 @@ body{
     footer{
         text-align: center;
         font-size: 0.8125rem;
-        margin-top: 4rem;
+        margin-block-start: 4rem;
         color:$Grey-500;
 
         a{
